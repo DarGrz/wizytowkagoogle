@@ -10,7 +10,7 @@ const Navigation = () => {
   const [isOpen, setOpen] = useState(false)
   return (
     <nav className="container mx-auto flex flex-column items-center justify-between border-b-2 py-2 h-24 relative">
-        <Link href='/' className="flex items-center opacity-80 hover:opacity-100 transition-opacity">
+        <Link href='/' className="flex items-center opacity-80 hover:opacity-100 transition-opacity main-">
             <Image src={logo} width={60} height={60} alt="Wizytówka Google Logo"/>
             <h1 className="font-bold uppercase text-gray-600"></h1>
         </Link>
