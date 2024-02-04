@@ -28,8 +28,8 @@ const WhatCards = () => {
               </div>
             </div>
             <div className="flex h-full">
-                <div className="cards flex items-center  border-2 rounded-sm  p-2 text-center  drop-shadow-sm w-full">
-                  <h3 className='bottom-5 md:text-xl text:md uppercase w-40 md:w-80  rounded-md py-3 pl-10 font-bold'>Magnetyczne Kampanie Reklamowe</h3>
+                <div className="cards flex items-center  border-2 rounded-sm  p-2 text-center  drop-shadow-sm w-full overflow-hidden">
+                  <h3 className='bottom-5 md:text-xl text:md uppercase w-40 md:w-80  rounded-md py-3 mr-5 font-bold'>Magnetyczne Kampanie Reklamowe</h3>
                   <Image className=' md:w-2/4 mx-auto'  src={ImageDigitalMarketing} height={250} width={250} alt={"lokalna widoczność w google"} />
                 </div>
             </div>
