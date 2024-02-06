@@ -7,7 +7,7 @@ import ImageVisibility from '@/public/images/wysoka-pozycja-w-goole.png'
 
 const WhatCards = () => {
   return (
-    <section className="container w-full grid gap-2 md:mt-20">
+    <section className="container w-full grid gap-2 md:mt-20 text-gray-700">
         <div>
           <h2 className="text-center mb-10 text-4xl">Co z tego będziesz miał?</h2>
         </div>
@@ -20,7 +20,7 @@ const WhatCards = () => {
           <div className="flex h-full gap-2">
             <div className="cards grid place-content-center border-2 rounded-sm md-p5 p-3 text-center drop-shadow-sm md:w-2/4">
               <Image className='w-2/4 md:w-2/4 mx-auto'  src={ImageVisibility} height={250} width={250} alt={"lokalna widoczność w google"} />
-              <h3 className='uppercase text-md md:text-xl font-bold'>Wysoka widoczność w Google</h3>
+              <h3 className='uppercase text-md md:text-xl font-bold '>Wysoka widoczność w Google</h3>
             </div>
             <div className="cards grid grid-inline place-content-center border-2 rounded-sm md-p5 p-3 text-center  drop-shadow-sm md:w-2/4">
               <Image className='w-2/4 md:w-2/4 mx-auto'  src={ImageOpinions} height={250} width={250} alt={"lokalna widoczność w google"} />

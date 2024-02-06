@@ -16,10 +16,9 @@ const Navigation = () => {
         </Link>
       <div className={`grow absolute top-20 transition-opacity md:relative md:inset-0 opacity-100  ${!isOpen && "hidden opacity-0"} md:block w-full md:w-auto`}>
         <div className="flex flex-col md:flex-row md:items-center items-center py-40 md:py-5  md:justify-end gap-5 md:gap-8 bg-white">
-          <Link className="hover:text-gray-800 hover:underline transition-all font-semibold text-gray-600" href="/">Home</Link>
-          <Link className="hover:text-gray-800 hover:underline transition-all font-semibold text-gray-600" href="/">Blog</Link>
-          <Link className="hover:text-gray-800 hover:underline transition-all font-semibold text-gray-600" href="/">Contact</Link>
-          <Link className="hover:text-gray-800 hover:underline transition-all font-semibold text-gray-600" href="/">FAQ</Link>
+          <Link className="hover:text-gray-800 hover:underline transition-all font-semibold text-gray-700" href="/">Home</Link>
+          <Link  className="hover:text-gray-800 hover:underline transition-all font-semibold text-gray-700" href="kontakt">Kontakt</Link>
+          <Link className="hover:text-gray-800 hover:underline transition-all font-semibold text-gray-700" href="cennik">Cennik</Link>
         </div>
       </div>
       <div className="md:hidden">
