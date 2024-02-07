@@ -36,3 +36,13 @@ color: transparent
   padding-bottom: 50px; */
 }
 
+/* List styles */
+
+.list-lower-alpha {
+  list-style: lower-alpha
+}
+
+.list-initial {
+  list-style-type: initial;
+}
+
