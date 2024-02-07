@@ -11,8 +11,8 @@ const Header = () => {
             <h1 className="text-4xl  text-center  md:text:6xl lg:text-9xl font-bold main-text-gradient">PROWADZENIE WIZYTÓWEK GOOGLE</h1>
             <p className="text-xl md:text-5xl md:my-10 text-center text-gray-700 -z-10">Twoja Firma w Top 3 w wynikach wyszukiwania</p>
             <div>
-              <div className="mt-5 hover:scale-110 h-100 text-4xl flex justify-center items-center">
-                <div className="text-6xl text-violet-500 ">
+              <div className="mt-5 hover:scale-110 h-100 text-4xl flex flex-col justify-center items-center">
+                <div className="text-6xl text-violet-500 mb-2 ">
                   <FaPhoneVolume />
                 </div> 
               <a href="tel:572 275 002" className=" flex items-center main-text-gradient justify-center gap-5 md:text-5xl font-bold text-center -z-10  px-5 py-3">
