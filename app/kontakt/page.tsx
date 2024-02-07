@@ -3,10 +3,10 @@ import {Input} from "@nextui-org/react";
 
 const index = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center">
+    <div className="flex min-h-screen flex-col items-center -z-10">
        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div
-            className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            className="-z-10 lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe width="100%" height="100%" className="absolute inset-0"  title="map"  loading="lazy"
                
                 src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%Kraków&ie=UTF8&t=&z=14&iwloc=B&output=embed"
